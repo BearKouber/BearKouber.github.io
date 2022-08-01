@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-31T05:28:19.147Z</updated>
+  <updated>2022-08-01T03:12:03.802Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XML基础</title>
+    <link href="http://example.com/2022/08/01/XML%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2022/08/01/XML%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-08-01T03:10:38.000Z</published>
+    <updated>2022-08-01T03:12:03.802Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="XML简介"><a href="#XML简介" class="headerlink" title="XML简介"></a>XML简介</h1><h2 id="内容介绍"><a href="#内容介绍" class="headerlink" title="内容介绍"></a>内容介绍</h2><ol><li>xml是什么</li><li>2.特点：标记性语言，可拓展</li><li>3.xml用途</li></ol><h3 id="1-xml是什么"><a href="#1-xml是什么" class="headerlink" title="1.xml是什么"></a>1.xml是什么</h3><p>•     XML是指可扩展标记语言(Xtensible Markup Language),它是一种标记语言，很类似HTML。它被设计的宗旨是传输数据，而非显示数据。</p><p>•     XML标签没有被预定义，需要用户自行定义标签。</p><p>•     XML技术是W3C组织(World Wide Web Consortium万维网联盟)发布的，目前遵循的是W3C组织于2000年发布的XML1.0规范。</p><p>•     XML被广泛认为是继Java之后在Internet上最激动人心的新技术。</p><h3 id="2-特点"><a href="#2-特点" class="headerlink" title="2.特点"></a>2.特点</h3><p>extensible Markup Language:可扩展标记型语言</p><p>•     标记型语言: html是标记型语言</p><p> –也是使用标签来操作</p><p>•     可扩展:</p><p>​     –html里面的标签是固定，每个标签都有特定的含义  <br/> –标签可以自已定义,可以写中文的标签&lt;/person、&lt;猫&gt;&lt;/猫&gt;</p><p>3.xml用途</p><p>–     html是用于显示数据，xml也可以湿示数据（不是主要功能)</p><p>–     xml主要功能，为了存储数据</p><p>•     xml是w3c组织发布的技术</p><p>xml有两个版本1.01.1<br>-使用都是1.0版本，(1.1版本不能向下</p><h1 id="XML的应用"><a href="#XML的应用" class="headerlink" title="XML的应用"></a>XML的应用</h1><h2 id="内容介绍-1"><a href="#内容介绍-1" class="headerlink" title="内容介绍"></a>内容介绍</h2><p>1.不同的系统之间传输数据</p><p>2.用来表示生活中有关系的数据</p><p>3.经常用在配置文件</p><h3 id="1-不同的系统之间传输数据"><a href="#1-不同的系统之间传输数据" class="headerlink" title="1.不同的系统之间传输数据"></a>1.不同的系统之间传输数据</h3><p>•     QQ之间数据的传输</p><p>•     画图分析过程</p><p><img src="https://ucc.alicdn.com/pic/developer-ecology/fe79bfb4c31b4661822d0f1cc48b3815.png" alt="image.png"><img src="https://ucc.alicdn.com/pic/developer-ecology/a2abfe2abe1d4f169f0b0b3d4eeed423.jpeg" alt="image.jpeg"></p><h3 id="2-用来表示生活中有关系的数据"><a href="#2-用来表示生活中有关系的数据" class="headerlink" title="2.用来表示生活中有关系的数据"></a>2.用来表示生活中有关系的数据</h3><p><img src="https://ucc.alicdn.com/pic/developer-ecology/02fbaed83d114f11acbcb1b3c04370a5.png" alt="image.png"><img src="https://ucc.alicdn.com/pic/developer-ecology/8b609243914942eda5590e27995f42f5.jpeg" alt="image.jpeg"></p><p>•     XML语言出现的根本目的在于描述向上图那种有关系的数据。</p><p>•     XML是―种通用的数据交换格式标签。</p><p>•     在xml语言中它允许用户自定义标签。—个标签用于描述一段数据；一个标签可分为开始标整和结束标签,在起始标签之间,又可以使用其它标签描述其它数据，以此来实现数据之间关系的描述。</p><p>•     XML中的教据必须通过软件程序来解析执行或显示，如iE这样的解析程序称之为Pars er(解析器)。</p><h3 id="3-经常用在配置文件"><a href="#3-经常用在配置文件" class="headerlink" title="3.经常用在配置文件"></a>3.经常用在配置文件</h3><p>•     例如现在连接数据库知道数据库的用户名和密码，数据名称</p><p>•     修改数据库的信息，不需要修改源代码，只要修改配置文件就可以了</p><h1 id="XML的文档声明"><a href="#XML的文档声明" class="headerlink" title="XML的文档声明"></a>XML的文档声明</h1><ol><li><p>创建一个文件后缀名是.xml</p></li><li><p>如果写xml，第一步必须要有一个文档声明（写了文档声明之后，表示写xml文件的内容）</p><?xml version="1.0" encoding="gbk”?><p><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;gbk”?&gt;</code></p><p><strong>属性之间必须加空格</strong></p><p><strong>文档声明必须写在第一行第一列</strong></p></li><li><p>属性</p><p>-version:xml的版本 1.0（使用）1.1</p><p>-encoding:xml编码 gbk utf-8 iso8859-1(不包含中文)</p><p>-standalone:是否需要依赖其他文件yes/no</p><h1 id="XML中文乱码问题解决"><a href="#XML中文乱码问题解决" class="headerlink" title="XML中文乱码问题解决"></a>XML中文乱码问题解决</h1><p>\1.   画图分析乱码问题</p><p>&lt;7xml version=”1.0” encoding=”utf-8”?&gt;</p><person><p>  <name>张三</name></p><p>  <age>20</age></p></person><p>第一步，保存到本地硬盘，使用jbk编码保存；</p><p>第二步，把张三转换到gbk码表里查看对应；</p><p>第三步，打开xml文件，打开时使用的是utf-8的编码；</p><p>第三步，到utf-8的码表里找张三所对应的值——&gt;出现乱码；</p><p>第四步，若不想出现乱码，则设置保存时的编码和打开时的编码一致。</p><p>\2.   保存时候的编码和设置打开时候的编码一致，不会出现乱码</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;XML简介&quot;&gt;&lt;a href=&quot;#XML简介&quot; class=&quot;headerlink&quot; title=&quot;XML简介&quot;&gt;&lt;/a&gt;XML简介&lt;/h1&gt;&lt;h2 id=&quot;内容介绍&quot;&gt;&lt;a href=&quot;#内容介绍&quot; class=&quot;headerlink&quot; title=&quot;内容介绍&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Java基础语法</title>
