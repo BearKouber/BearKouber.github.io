@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-01T03:12:03.802Z</updated>
+  <updated>2022-09-29T11:37:30.057Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git拉取Github库并删除库里面某个文件</title>
+    <link href="http://example.com/2022/09/29/git%E6%8B%89%E5%8F%96Github%E5%BA%93%E5%B9%B6%E5%88%A0%E9%99%A4%E5%BA%93%E9%87%8C%E9%9D%A2%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6/"/>
+    <id>http://example.com/2022/09/29/git%E6%8B%89%E5%8F%96Github%E5%BA%93%E5%B9%B6%E5%88%A0%E9%99%A4%E5%BA%93%E9%87%8C%E9%9D%A2%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6/</id>
+    <published>2022-09-29T11:37:05.000Z</published>
+    <updated>2022-09-29T11:37:30.057Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git拉取Github库并删除库里面某个文件"><a href="#git拉取Github库并删除库里面某个文件" class="headerlink" title="git拉取Github库并删除库里面某个文件"></a>git拉取Github库并删除库里面某个文件</h1><h2 id="1-拉取该库代码到本地"><a href="#1-拉取该库代码到本地" class="headerlink" title="1.拉取该库代码到本地"></a>1.拉取该库代码到本地</h2><p><strong>git拉取过程报错</strong></p><blockquote><p>$ git clone <a class="link"   href="https://github.com/BearKouber/Web" >https://github.com/BearKouber/Web<i class="fas fa-external-link-alt"></i></a></p><p>SSL certificate problem: unable to get local issuer certificate</p></blockquote><p><img src="https://i.imgur.com/6AD75ne.png" alt="img"></p><p><strong>解决方法</strong></p><blockquote><p>git config –global http.sslVerify false</p></blockquote><h2 id="2-将远程分支与本地分支进行关联"><a href="#2-将远程分支与本地分支进行关联" class="headerlink" title="2.将远程分支与本地分支进行关联"></a>2.将远程分支与本地分支进行关联</h2><p><img src="https://i.imgur.com/RSBxFCL.png" alt="Img"></p><blockquote><ul><li>进入拉取到本地的文件夹</li></ul><p>cd Web</p><ul><li>关联</li></ul><p>git pull origin main</p><ul><li>查看是否连接成功</li></ul><p>git branch -vv</p><p>可以看到master后面蓝色部分origin/main，说明master分支已经与origin/main绑定在一起了。</p></blockquote><h2 id="3-删除"><a href="#3-删除" class="headerlink" title="3.删除"></a>3.删除</h2><p><img src="https://i.imgur.com/zu5ohET.png" alt="img"></p><blockquote><p>git rm –cached config.js   //删除config.js文件 </p><p>git rm -r  –cached  config   //删除config文件夹    </p></blockquote><h2 id="4-推送到远程"><a href="#4-推送到远程" class="headerlink" title="4.推送到远程"></a>4.推送到远程</h2><p><img src="https://i.imgur.com/69slska.png" alt="img"></p><p><img src="https://i.imgur.com/zGLWdjB.png" alt="img"></p><blockquote><p>git commit -m ‘删除某个文件’    //commit提交 </p><p>git push //此处push时候弹出需要登录GitHub于是登录连接上了，应该是连接上才能push到github</p></blockquote><p>于是刷新后，GitHub库里面的文件就不见了，耶✌</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;git拉取Github库并删除库里面某个文件&quot;&gt;&lt;a href=&quot;#git拉取Github库并删除库里面某个文件&quot; class=&quot;headerlink&quot; title=&quot;git拉取Github库并删除库里面某个文件&quot;&gt;&lt;/a&gt;git拉取Github库并删除库里面某个</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>XML基础</title>
