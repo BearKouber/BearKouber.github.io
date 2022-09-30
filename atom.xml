@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-29T11:37:30.057Z</updated>
+  <updated>2022-09-30T04:45:58.933Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网易云移除已购音乐的加密保护</title>
+    <link href="http://example.com/2022/09/30/%E7%BD%91%E6%98%93%E4%BA%91%E7%A7%BB%E9%99%A4%E5%B7%B2%E8%B4%AD%E9%9F%B3%E4%B9%90%E7%9A%84%E5%8A%A0%E5%AF%86%E4%BF%9D%E6%8A%A4/"/>
+    <id>http://example.com/2022/09/30/%E7%BD%91%E6%98%93%E4%BA%91%E7%A7%BB%E9%99%A4%E5%B7%B2%E8%B4%AD%E9%9F%B3%E4%B9%90%E7%9A%84%E5%8A%A0%E5%AF%86%E4%BF%9D%E6%8A%A4/</id>
+    <published>2022-09-30T04:42:03.000Z</published>
+    <updated>2022-09-30T04:45:58.933Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="网易云移除已购音乐的加密保护"><a href="#网易云移除已购音乐的加密保护" class="headerlink" title="网易云移除已购音乐的加密保护"></a>网易云移除已购音乐的加密保护</h1><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><blockquote><p>网易云音乐黑胶续不起了</p><p> 但是好想听音乐呐，不听音乐真的会死捏</p></blockquote><h2 id="于是"><a href="#于是" class="headerlink" title="于是"></a>于是</h2><p>便找到了这个网站</p><p><a class="link"   href="https://github.com/unlock-music/unlock-music" >移除已购音乐的加密保护<i class="fas fa-external-link-alt"></i></a></p><p><img src="https://i.imgur.com/aeUGq6p.png" alt="img"></p><p>下载压缩包下来后打开里面的html文件是这个样子的，最终我把这个月网易云音乐包用完了，下了几百首歌，全部通过他转mp3了，巧了我正好开始学web，而这个本地静态网站可以实现功能好棒，直接仰视大佬，打开我新世界的大门了。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>把在网易云下载的加密音乐(.ncm音乐文件)拉进去就可以喽，下载下来的就是解密的mp3文件呐</p><h2 id="然后捏"><a href="#然后捏" class="headerlink" title="然后捏"></a>然后捏</h2><p>发现这个网站是出自从下面的网站</p><p><a class="link"   href="https://tool.liumingye.cn/" >刘明野的工具箱<i class="fas fa-external-link-alt"></i></a></p><p><img src="https://i.imgur.com/nJbn00e.png" alt="img"></p><p>下载下来的音乐当然需要一个新播放器来播放了</p><p>这里选择的Dopamine，非常不错的离线音乐播放软件</p><p><img src="https://i.imgur.com/JQsxbaI.png" alt="img"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;网易云移除已购音乐的加密保护&quot;&gt;&lt;a href=&quot;#网易云移除已购音乐的加密保护&quot; class=&quot;headerlink&quot; title=&quot;网易云移除已购音乐的加密保护&quot;&gt;&lt;/a&gt;网易云移除已购音乐的加密保护&lt;/h1&gt;&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>git拉取Github库并删除库里面某个文件</title>
